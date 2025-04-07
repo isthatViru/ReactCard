@@ -1,4 +1,4 @@
-/* Load Google Fonts (optional) */
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
 
 body {
@@ -11,7 +11,7 @@ body {
   min-height: 100vh;
 }
 
-/* Style the card titles */
+
 .card strong {
   display: block;
   font-weight: 600;
@@ -20,7 +20,6 @@ body {
   margin-bottom: 0.2rem;
 }
 
-/* Style the card data */
 .card p {
   margin: 1rem 0;
   font-size: 0.95rem;
@@ -28,7 +27,7 @@ body {
   color: #d2b48c;
 }
 
-/* Style the h2 title differently */
+
 .card h2 {
   font-size: 1.8rem;
   font-weight: 700;
