@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
-// ⏱ Interval to update clock
 setTimeout(() => {
   setInterval(() => {
     const clock = document.getElementById("clock");
@@ -13,7 +12,6 @@ setTimeout(() => {
   }, 1000);
 }, 0);
 
-// ✅ Render with React.StrictMode
 const root = ReactDOM.createRoot(document.getElementById("root"));
 document.body.style.backgroundImage = `url("/Brown Aesthetic Desktop Wallpaper.png")`;
 document.body.style.backgroundSize = "cover";
@@ -33,7 +31,7 @@ root.render(
         margin: "50px auto",
         color: "white",
         textAlign: "center",
-        backgroundColor: "transparent", // ✅ no gray
+        backgroundColor: "transparent", 
         boxShadow: "0 10px 30px rgba(0,0,0,0.3)",
       }}
     >
